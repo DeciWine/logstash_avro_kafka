@@ -1,0 +1,13 @@
+{"type": "record",
+			"name": "System_Log",
+			"namespace":"com.dai",
+			"fields":[
+				{"name":"path","type":"string"},
+				{"name":"log","type":"string"},
+				{"name":"host","type":"string"},
+				{"name":"timestamp","type":"string"},
+				{"name":"pid","type":"string"},
+				{"name":"logsource","type":"string"},
+				{"name":"program","type":"string"}
+			]
+}

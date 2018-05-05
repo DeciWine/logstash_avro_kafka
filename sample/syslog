@@ -1,0 +1,71 @@
+May  2 14:10:19 daiweijie-ubuntu0 colord[655]: failed to get session [pid 70551]: No data available
+May  2 14:10:21 daiweijie-ubuntu0 anacron[70147]: Job `cron.daily' terminated
+May  2 14:10:21 daiweijie-ubuntu0 anacron[70147]: Normal exit (1 job run)
+May  2 14:17:01 daiweijie-ubuntu0 CRON[70718]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  2 14:22:21 daiweijie-ubuntu0 systemd-timesyncd[390]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+May  2 14:23:33 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-appindicators@ubuntu.com
+May  2 14:23:33 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-dock@ubuntu.com
+May  2 15:02:50 daiweijie-ubuntu0 systemd[1]: Started Run anacron jobs.
+May  2 15:02:50 daiweijie-ubuntu0 anacron[71597]: Anacron 2.3 started on 2018-05-02
+May  2 15:02:50 daiweijie-ubuntu0 anacron[71597]: Normal exit (0 jobs run)
+May  2 15:17:01 daiweijie-ubuntu0 CRON[71869]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  2 15:18:28 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dc0ff0f80 Gjs_ShowAppsIcon.dash-item-container] connect method
+May  2 15:18:28 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dc0ff0f80 Gjs_ShowAppsIcon.dash-item-container] disconnect method
+May  2 15:18:28 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dc0ff0f80 Gjs_ShowAppsIcon.dash-item-container] emit method
+May  2 15:18:28 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-dock@ubuntu.com
+May  2 15:18:28 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-appindicators@ubuntu.com
+May  2 15:18:29 daiweijie-ubuntu0 gnome-shell[1250]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.59/org/ayatana/NotificationItem/software_update_available
+May  2 15:30:02 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-appindicators@ubuntu.com
+May  2 15:30:02 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-dock@ubuntu.com
+May  2 15:39:20 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dbfb13ad0 Gjs_ShowAppsIcon.dash-item-container] connect method
+May  2 15:39:20 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dbfb13ad0 Gjs_ShowAppsIcon.dash-item-container] disconnect method
+May  2 15:39:20 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dbfb13ad0 Gjs_ShowAppsIcon.dash-item-container] emit method
+May  2 15:39:20 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-dock@ubuntu.com
+May  2 15:39:20 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-appindicators@ubuntu.com
+May  2 15:39:21 daiweijie-ubuntu0 gnome-shell[1250]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.59/org/ayatana/NotificationItem/software_update_available
+May  2 15:49:34 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-appindicators@ubuntu.com
+May  2 15:49:34 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-dock@ubuntu.com
+May  2 16:01:53 daiweijie-ubuntu0 systemd[1]: Started Run anacron jobs.
+May  2 16:01:53 daiweijie-ubuntu0 anacron[72733]: Anacron 2.3 started on 2018-05-02
+May  2 16:01:53 daiweijie-ubuntu0 anacron[72733]: Normal exit (0 jobs run)
+May  2 16:17:01 daiweijie-ubuntu0 CRON[73021]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  2 16:52:56 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dc6def900 Gjs_ShowAppsIcon.dash-item-container] connect method
+May  2 16:52:56 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dc6def900 Gjs_ShowAppsIcon.dash-item-container] disconnect method
+May  2 16:52:56 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dc6def900 Gjs_ShowAppsIcon.dash-item-container] emit method
+May  2 16:52:56 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-dock@ubuntu.com
+May  2 16:52:56 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-appindicators@ubuntu.com
+May  2 16:52:57 daiweijie-ubuntu0 gnome-shell[1250]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.59/org/ayatana/NotificationItem/software_update_available
+May  2 17:03:57 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-appindicators@ubuntu.com
+May  2 17:03:57 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-dock@ubuntu.com
+May  2 17:04:49 daiweijie-ubuntu0 systemd[1]: Started Run anacron jobs.
+May  2 17:04:49 daiweijie-ubuntu0 anacron[73936]: Anacron 2.3 started on 2018-05-02
+May  2 17:04:49 daiweijie-ubuntu0 anacron[73936]: Normal exit (0 jobs run)
+May  2 17:17:01 daiweijie-ubuntu0 CRON[74168]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  2 17:22:24 daiweijie-ubuntu0 systemd[1]: Starting Daily apt download activities...
+May  2 17:22:41 daiweijie-ubuntu0 gnome-software[1815]: running get-updates with refine-flags=require-update-details,require-update-severity with timeout=60 on plugin=systemd-updates took 18ms
+May  2 17:55:25 daiweijie-ubuntu0 systemd[1]: Started Daily apt download activities.
+May  2 18:01:40 daiweijie-ubuntu0 systemd[1]: Started Run anacron jobs.
+May  2 18:01:40 daiweijie-ubuntu0 anacron[74771]: Anacron 2.3 started on 2018-05-02
+May  2 18:01:40 daiweijie-ubuntu0 anacron[74771]: Normal exit (0 jobs run)
+May  2 18:13:39 daiweijie-ubuntu0 systemd[1]: Starting Daily apt download activities...
+May  2 18:13:40 daiweijie-ubuntu0 systemd[1]: Started Daily apt download activities.
+May  2 18:17:02 daiweijie-ubuntu0 CRON[75111]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  2 19:03:30 daiweijie-ubuntu0 systemd[1]: Started Run anacron jobs.
+May  2 19:03:30 daiweijie-ubuntu0 anacron[75785]: Anacron 2.3 started on 2018-05-02
+May  2 19:03:30 daiweijie-ubuntu0 anacron[75785]: Normal exit (0 jobs run)
+May  2 19:26:11 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dc4333040 Gjs_ShowAppsIcon.dash-item-container] connect method
+May  2 19:26:11 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dc4333040 Gjs_ShowAppsIcon.dash-item-container] disconnect method
+May  2 19:26:11 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dc4333040 Gjs_ShowAppsIcon.dash-item-container] emit method
+May  2 19:26:11 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-dock@ubuntu.com
+May  2 19:26:11 daiweijie-ubuntu0 gnome-software[1815]: no app for changed ubuntu-appindicators@ubuntu.com
+May  2 19:26:12 daiweijie-ubuntu0 gnome-shell[1250]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.59/org/ayatana/NotificationItem/software_update_available
+May  2 19:37:58 daiweijie-ubuntu0 gnome-terminal-[49610]: Allocating size to GtkBox 0x55998b3eacc0 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+May  2 19:37:59 daiweijie-ubuntu0 gnome-terminal-[49610]: message repeated 3 times: [ Allocating size to GtkBox 0x55998b3eacc0 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?]
+May  2 20:00:53 daiweijie-ubuntu0 systemd[1]: Started Run anacron jobs.
+May  2 20:00:53 daiweijie-ubuntu0 anacron[76723]: Anacron 2.3 started on 2018-05-02
+May  2 20:00:53 daiweijie-ubuntu0 anacron[76723]: Normal exit (0 jobs run)
+May  2 20:03:38 daiweijie-ubuntu0 gnome-shell[1250]: Failed to apply DRM plane transform 0: Invalid argument
+May  2 20:03:38 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dbd8dfff0 Gjs_ShowAppsIcon.dash-item-container] connect method
+May  2 20:03:38 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dbd8dfff0 Gjs_ShowAppsIcon.dash-item-container] disconnect method
+May  2 20:03:38 daiweijie-ubuntu0 gnome-shell[1250]: WARNING: addSignalMethods is replacing existing [0x562dbd8dfff0 Gjs_ShowAppsIcon.dash-item-container] emit method
+May  2 20:03:39 daiweijie-ubuntu0 gsd-color[1681]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output

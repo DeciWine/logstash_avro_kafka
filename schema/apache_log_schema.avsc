@@ -1,0 +1,22 @@
+{			"type": "record",
+			"name": "Apache_Log",
+			"namespace":"com.dai",
+			"fields":[
+				{"name":"referrer","type":"string"},
+				{"name":"ident","type":"string"},
+				{"name":"agent","type":"string"},
+				{"name":"response","type":"string"},
+				{"name":"path","type":"string"},
+				{"name":"auth","type":"string"},
+				{"name":"request","type":"string"},
+				{"name":"verb","type":"string","doc":"http request"},
+				{"name":"host","type":"string"},
+				{"name":"timestamp","type":"string"},
+				{"name":"httpversion","type":"string"},
+				{"name":"clientip","type":"string"}
+				
+    				
+				
+				
+			]
+}
