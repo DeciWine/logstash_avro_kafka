@@ -1,9 +1,9 @@
-#logstash\_avro\_kafka
+# logstash\_avro\_kafka
 
-##1.项目说明
+## 1.项目说明
 本项目是通过[logstash](https://www.elastic.co/cn/products/logstash)收集特定种类的日志并解析日志，随后进行[Avro](http://avro.apache.org/)序列化之后，将二进制流发送到[kafka](http://kafka.apache.org/)。
 
-##2.目录介绍
+## 2.目录介绍
 1.pattern 目录是 logstash 的[grok插件](https://www.elastic.co/guide/en/logstash/6.2/plugins-filters-grok.html#_getting_help_116)使用的模式文件（详细介绍在后面）
 
 2.sample 目录是示例日志文件
@@ -12,10 +12,10 @@
 
 4.根目录下的conf文件是日志文件对应的logstash配置文件
 
-##3.项目原理
+## 3.项目原理
 本项目是通过logstash收集相关日志（如sample/syslog），使用logstash的[grok插件](https://www.elastic.co/guide/en/logstash/6.2/plugins-filters-grok.html#_getting_help_116)，通过不同的配置文件（如syslog-pipeline.conf）和相关模式文件(如pattern/linux-syslog)解析不同种类的日志，并使用对应的avro schema(如schema/linux\_system\_log\_schema.avsc)将其序列化，并发送到kafka对应的topic.
 
-##4.项目运行
+## 4.项目运行
 [下载logstash](https://www.elastic.co/cn/downloads/logstash)，将项目所有文件拷贝至logstash文件夹中，修改syslog-pipeline.conf中的kafka对应的参数，执行
 ```
  bin/logstash -f syslog-pipeline.conf --config.reload.automatic
