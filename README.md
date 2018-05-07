@@ -33,7 +33,8 @@ bin/logstash-plugin install logstash-codec-pnda-avro-3.1.1-java.gem
 ```
 
 4.将kafka.rb 替换
-``` ${LogstashRoot}/vendor/bundle/jruby/2.3.0/gems/logstash-output-kafka-7.0.8/lib/logstash/outputs/kafka.rb
+``` 
+{LogstashRoot}/vendor/bundle/jruby/2.3.0/gems/logstash-output-kafka-7.0.8/lib/logstash/outputs/kafka.rb
 ```
 
 5.修改syslog-pipeline.conf中的kafka对应的参数，执行
