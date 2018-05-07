@@ -16,7 +16,14 @@
 本项目是通过logstash收集相关日志（如sample/syslog），使用logstash的[grok插件](https://www.elastic.co/guide/en/logstash/6.2/plugins-filters-grok.html#_getting_help_116)，通过不同的配置文件（如syslog-pipeline.conf）和相关模式文件(如pattern/linux-syslog)解析不同种类的日志，并使用对应的avro schema(如schema/linux\_system\_log\_schema.avsc)将其序列化，并发送到kafka对应的topic.
 
 ## 4.项目运行
-[下载logstash](https://www.elastic.co/cn/downloads/logstash)，将项目所有文件拷贝至logstash文件夹中，修改syslog-pipeline.conf中的kafka对应的参数，执行
+[下载logstash](https://www.elastic.co/cn/downloads/logstash)，首先须要安装logstash的相关插件：logstash-codec-avro,logstash-filter-grok,logstash-filter-mutate,logstash-output-kafka.
+
+```
+bin/logstash-plugin install logstash-codec-avro logstash-filter-grok logstash-filter-mutate logstash-output-kafka
+
+```
+
+然后将项目所有文件拷贝至logstash文件夹中，修改syslog-pipeline.conf中的kafka对应的参数，执行
 ```
  bin/logstash -f syslog-pipeline.conf --config.reload.automatic
  ```
