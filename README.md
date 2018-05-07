@@ -12,18 +12,31 @@
 
 4.根目录下的conf文件是日志文件对应的logstash配置文件
 
+5.logstash-codec-pnda-avro-3.1.1-java.gem 是需要安装的自定义插件，因为原生的解析avro序列的插件对二进制流输出支持不好，详见[pnda-avro](https://github.com/pndaproject/logstash-codec-pnda-avro)
+
+6.kafka.rb是我修改了原生文件第199行的新文件，因为在kafka 6.2.3版本使用原来的文件会报“undefined methods”的错误。
 ## 3.项目原理
 本项目是通过logstash收集相关日志（如sample/syslog），使用logstash的[grok插件](https://www.elastic.co/guide/en/logstash/6.2/plugins-filters-grok.html#_getting_help_116)，通过不同的配置文件（如syslog-pipeline.conf）和相关模式文件(如pattern/linux-syslog)解析不同种类的日志，并使用对应的avro schema(如schema/linux\_system\_log\_schema.avsc)将其序列化，并发送到kafka对应的topic.
 
 ## 4.项目运行
-[下载logstash](https://www.elastic.co/cn/downloads/logstash)，首先须要安装logstash的相关插件：logstash-codec-avro,logstash-filter-grok,logstash-filter-mutate,logstash-output-kafka.
+1. [下载logstash](https://www.elastic.co/cn/downloads/logstash).
+
+2. 安装logstash的相关插件：logstash-codec-avro,logstash-filter-grok,logstash-filter-mutate,logstash-output-kafka.
 
 ```
 bin/logstash-plugin install logstash-codec-avro logstash-filter-grok logstash-filter-mutate logstash-output-kafka
 
 ```
+3.将项目所有文件拷贝至logstash文件夹中，安装自定义插件logstash-codec-pnda-avro-3.1.1-java.gem 
+```
+bin/logstash-plugin install logstash-codec-pnda-avro-3.1.1-java.gem
+```
 
-然后将项目所有文件拷贝至logstash文件夹中，修改syslog-pipeline.conf中的kafka对应的参数，执行
+4.将kafka.rb 替换
+``` /${LogstashRoot}/vendor/bundle/jruby/2.3.0/gems/logstash-output-kafka-7.0.8/lib/logstash/outputs/kafka.rb
+```
+
+5.修改syslog-pipeline.conf中的kafka对应的参数，执行
 ```
  bin/logstash -f syslog-pipeline.conf --config.reload.automatic
  ```
