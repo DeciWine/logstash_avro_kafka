@@ -43,7 +43,7 @@ bin/logstash-plugin install logstash-codec-pnda-avro-3.1.1-java.gem
  ```
  就会解析sample/syslog ，将其avro序列化后发送到你的kafka对应的topic中。
  
-##5.备注 
+## 5.备注 
 1.也可以解析其他种类的日志，只要修改配置文件，修改grok插件的参数，让logstash能顺利解析日志，并写出对应的avro schema即可。
 
 2.input插件直接使用本地文件输入，配置文件中要填写文件的绝对路径。如果要采集其他设备上的日志，可以使用filebeat插件，参考[filebeat](https://www.elastic.co/guide/en/logstash/6.2/plugins-inputs-beats.html)
